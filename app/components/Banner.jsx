@@ -11,7 +11,7 @@ export const Banner = () => {
             <h1 className="text-5xl md:text-8xl font-bold mb-4">
               Darwin's Exquisite Brews
               <Image
-                src="/assets/goldaward.png"
+                src="/assets/goldaward.PNG"
                 alt="Gold Award"
                 width={70}
                 height={70}

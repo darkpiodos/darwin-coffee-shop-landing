@@ -48,17 +48,17 @@ export const BestSeller = () => {
         <Card
           title="Hazelnut"
           description="Elevate your events with our bespoke catering services, to delight your guests."
-          imgSrc="/assets/seller1.png"
+          imgSrc="/assets/seller1.PNG"
         />
         <Card
           title="Mocha"
           description="Indulge in our savory and sweet snack selections, perfect for any time of day."
-          imgSrc="/assets/seller2.png"
+          imgSrc="/assets/seller2.PNG"
         />
         <Card
           title="Caramel"
           description="Treat yourself to our decadent desserts, crafted to satisfy your sweetest cravings."
-          imgSrc="/assets/seller3.png"
+          imgSrc="/assets/seller3.PNG"
         />
       </div>
     </div>
