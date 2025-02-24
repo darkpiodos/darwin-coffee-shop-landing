@@ -10,7 +10,7 @@ export const Footer = () => {
           <div className="">
             <h1 className="text-5xl md:text-8xl font-bold mb-4">
               <Image
-                src="/assets/logo/darwincoffee.PNG"
+                src="/assets/logo/darwincoffee.png"
                 alt="Gold Award"
                 width={200}
                 height={100}

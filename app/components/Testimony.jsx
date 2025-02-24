@@ -22,7 +22,7 @@ export const Testimony = () => {
           <div className="relative -ml-3">
             <Image
               className="rounded-full border border-2 border-neutral-100 w-8 md:w-14"
-              src="/assets/man1.png"
+              src="/assets/man1.PNG"
               alt="MAN1"
               width={50}
               height={50}
@@ -31,7 +31,7 @@ export const Testimony = () => {
           <div className="relative -ml-3">
             <Image
               className="rounded-full border border-2 border-neutral-100 w-8 md:w-14"
-              src="/assets/man2.png"
+              src="/assets/man2.PNG"
               alt="MAN1"
               width={50}
               height={50}
@@ -40,7 +40,7 @@ export const Testimony = () => {
           <div className="relative -ml-3">
             <Image
               className="rounded-full border border-2 border-neutral-100 w-8 md:w-14"
-              src="/assets/man3.png"
+              src="/assets/man3.PNG"
               alt="MAN1"
               width={50}
               height={50}
@@ -49,7 +49,7 @@ export const Testimony = () => {
           <div className="relative -ml-3">
             <Image
               className="rounded-full border border-2 border-neutral-100 w-8 md:w-14"
-              src="/assets/man4.png"
+              src="/assets/man4.PNG"
               alt="MAN1"
               width={50}
               height={50}
@@ -58,7 +58,7 @@ export const Testimony = () => {
           <div className="relative -ml-3">
             <Image
               className="rounded-full border border-2 border-neutral-100 w-8 md:w-14"
-              src="/assets/man5.png"
+              src="/assets/man5.PNG"
               alt="MAN1"
               width={50}
               height={50}

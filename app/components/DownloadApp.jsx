@@ -29,7 +29,7 @@ export const DownloadApp = () => {
         </div>
         <div className="flex justify-center items-center relative mt-10 md:mt-0">
           <Image
-            src="/assets/coffeeseller2.PNG"
+            src="/assets/coffeeseller2.png"
             alt="Darwin Coffee Shop Banner"
             width={500}
             height={500}

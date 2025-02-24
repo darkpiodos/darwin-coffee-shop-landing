@@ -43,7 +43,7 @@ export const Banner = () => {
         {/* Second Column */}
         <div className="flex justify-center items-center relative md:mt-10 md:mt-0 order-1 md:order-2">
           <Image
-            src="/assets/banner.PNG"
+            src="/assets/banner.png"
             alt="Darwin Coffee Shop Banner"
             width={500}
             height={500}
