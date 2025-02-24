@@ -193,7 +193,7 @@ export default function Headers() {
               <Image
                 src="/assets/logo/darwincoffee.png"
                 alt="Darwin's Logo"
-                width={140}
+                width={130}
                 height={100}
                 className=""
               />
