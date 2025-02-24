@@ -3,13 +3,13 @@ import Image from "next/image";
 
 const Card = ({ title, description, imgSrc }) => {
   return (
-    <div className="md:max-w-xs pt-24 md:mt-32 bg-white border-b border-gray-100 rounded-lg  dark:bg-gray-800 dark:border-gray-700 shadow-lg relative">
+    <div className="md:max-w-xs pt-24 mt-32 bg-white border-b border-gray-100 rounded-lg  dark:bg-gray-800 dark:border-gray-700 shadow-lg relative">
       <Image
-        className="rounded-t-lg absolute right-4 top-[-90px]"
+        className="absolute right-4 top-[-90px]"
         src={imgSrc}
         alt={title}
         width={150}
-        height={150}
+        height={100}
       />
       <div className="p-5">
         <h5 className="mb-2 text-xl md:text-3xl font-bold tracking-tight text-gray-900 dark:text-white">

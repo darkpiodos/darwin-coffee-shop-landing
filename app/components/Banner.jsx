@@ -12,7 +12,7 @@ export const Banner = () => {
               Darwin's Exquisite Brews
               <Image
                 src="/assets/goldaward.png"
-                alt="Darwin Coffee Shop Banner"
+                alt="Gold Award"
                 width={70}
                 height={70}
                 className="rounded-md inline-flex ml-5 md:ml-10 h-10 w-10 md:h-24 md:w-24"
