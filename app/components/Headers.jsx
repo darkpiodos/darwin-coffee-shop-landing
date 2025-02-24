@@ -68,10 +68,10 @@ export default function Headers() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white">
+    <header className="bg-[#eeeff1]">
       <nav
         aria-label="Global"
-        className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+        className="mx-auto flex max-w-7xl items-center justify-between p-8 lg:px-8"
       >
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
@@ -164,7 +164,7 @@ export default function Headers() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end group items-center">
           <button
             type="button"
-            className="relative inline-flex items-center justify-center w-10 h-10 mr-3 overflow-hidden text-sm font-medium text-black bg-neutral-100 rounded-full shadow- transition-transform transform group-hover:scale-105 group-hover:bg-neutral-50 group-hover:text-black"
+            className="relative inline-flex items-center justify-center w-10 h-10 mr-3 overflow-hidden text-sm font-medium text-black bg-white rounded-full shadow-xl transition-transform transform group-hover:scale-105 group-hover:bg-neutral-50 group-hover:text-black"
           >
             <GiShoppingBag className="w-5 h-5" />
             <span className="sr-only">View Cart</span>{" "}
