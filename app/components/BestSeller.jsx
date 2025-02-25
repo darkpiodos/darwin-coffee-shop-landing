@@ -37,7 +37,7 @@ const Card = ({ title, description, imgSrc, seller }) => {
               type="button"
               className="w-full relative inline-flex items-center justify-center px-6 py-3 overflow-hidden text-sm md:text-md font-medium text-white bg-black/90 rounded-md shadow-xl transition-transform transform group-hover:scale-105"
             >
-              Discover More
+              Buy Now
             </button>
           </div>
         </div>
