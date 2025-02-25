@@ -1,12 +1,10 @@
 "use client";
-import React, { useRef, useState } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
-import { Pagination, Navigation } from "swiper/modules";
 
 import Image from "next/image";
 import { RiStarSLine } from "react-icons/ri";
@@ -100,7 +98,7 @@ export default function SlideFeedback() {
           <Card
             title="Kevin Garcia"
             description="Darwin Coffee has truly transformed my mornings! The delightful aroma of their brews make each cup a moment of pure joy. "
-            imgSrc="/assets/testimony4.png"
+            imgSrc="/assets/testimony4.PNG"
           />
         </SwiperSlide>
       </Swiper>
