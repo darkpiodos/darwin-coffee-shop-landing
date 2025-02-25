@@ -3,7 +3,13 @@ import Image from "next/image";
 
 const Card = ({ title, description, imgSrc }) => {
   return (
-    <div className="md:max-w-xs bg-white border border-gray-100 rounded-lg  dark:bg-gray-800 dark:border-gray-700 shadow-lg">
+    <div
+      className="md:max-w-xs bg-white border border-gray-100 rounded-lg shadow-lg"
+      data-aos="zoom-in-up"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+    >
       <a href="#">
         <Image
           className="rounded-t-lg w-screen"
@@ -15,13 +21,11 @@ const Card = ({ title, description, imgSrc }) => {
       </a>
       <div className="p-5">
         <a href="#">
-          <h5 className="mb-2 text-xl md:text-3xl font-bold tracking-tight text-gray-900 dark:text-white">
+          <h5 className="mb-2 text-xl md:text-3xl font-bold tracking-tight text-gray-900 ">
             {title}
           </h5>
         </a>
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          {description}
-        </p>
+        <p className="mb-3 font-normal text-gray-700 ">{description}</p>
         <div className="w-full flex justify-start group items-center mt-6">
           <button
             type="button"
@@ -38,7 +42,13 @@ const Card = ({ title, description, imgSrc }) => {
 export const Explore = () => {
   return (
     <div className=" p-8 sm:py-10 md:py-24">
-      <div className="grid grid-cols-1 py-10  w-full md:max-w-7xl mx-auto text-center">
+      <div
+        className="grid grid-cols-1 py-10  w-full md:max-w-7xl mx-auto text-center"
+        data-aos="fade-down"
+        data-aos-delay="20"
+        data-aos-duration="800"
+        data-aos-easing="ease-in-out"
+      >
         <h1 className="text-3xl md:text-5xl font-bold mb-4">
           Explore Our Menu{" "}
         </h1>

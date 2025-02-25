@@ -8,7 +8,13 @@ export const DownloadApp = () => {
         {/* First Column */}
 
         {/* Second Column */}
-        <div className="flex flex-col justify-center relative">
+        <div
+          className="flex flex-col justify-center relative"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1200"
+          data-aos-easing="ease-in-out"
+        >
           <div className="">
             <h1 className="text-3xl md:text-5xl font-bold mb-4">
               Instant Coffee At Your Home{" "}
@@ -27,7 +33,13 @@ export const DownloadApp = () => {
             </button>
           </div>
         </div>
-        <div className="flex justify-center items-center relative mt-10 md:mt-0">
+        <div
+          className="flex justify-center items-center relative mt-10 md:mt-0"
+          data-aos="fade-left"
+          data-aos-delay="50"
+          data-aos-duration="1200"
+          data-aos-easing="ease-in-out"
+        >
           <Image
             src="/assets/coffeeseller2.png"
             alt="Darwin Coffee Shop Banner"

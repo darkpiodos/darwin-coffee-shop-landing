@@ -7,7 +7,13 @@ export const OrderCoffee = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-8 sm:py-10 md:py-24 max-w-7xl mx-auto ">
         {/* First Column */}
 
-        <div className="flex justify-center items-center relative mt-10 md:mt-0">
+        <div
+          className="flex justify-center items-center relative mt-10 md:mt-0"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        >
           <Image
             src="/assets/coffeeseller.png"
             alt="Darwin Coffee Shop Banner"
@@ -17,7 +23,13 @@ export const OrderCoffee = () => {
           />
         </div>
         {/* Second Column */}
-        <div className="flex flex-col justify-center relative">
+        <div
+          className="flex flex-col justify-center relative"
+          data-aos="fade-left"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        >
           <div className="">
             <h1 className="text-3xl md:text-5xl font-bold mb-4">
               Order Your Favorite Coffee

@@ -6,7 +6,13 @@ export const Footer = () => {
     <div className="bg-[#eeeff1]">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-8 sm:py-10 md:py-24 max-w-7xl mx-auto ">
         {/* First Column */}
-        <div className="flex flex-col justify-start relative ">
+        <div
+          className="flex flex-col justify-start relative "
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        >
           <div className="">
             <h1 className="text-5xl md:text-8xl font-bold mb-4">
               <Image
@@ -38,16 +44,22 @@ export const Footer = () => {
         </div>
 
         {/* Second Column */}
-        <div className="flex flex-col justify-start relative mt-4 md:mt-0">
+        <div
+          className="flex flex-col justify-start relative mt-4 md:mt-0"
+          data-aos="fade-left"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        >
           <div className="w-full max-w-sm mx-auto  rounded-lg ">
-            <h2 className="text-lg font-medium mb-4 text-gray-900 dark:text-white">
+            <h2 className="text-lg font-medium mb-4 text-gray-900 ">
               Subscribe to our Newsletter
             </h2>
             <form className="flex flex-col">
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="mb-4 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black dark:bg-gray-700 dark:text-white"
+                className="mb-4 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black"
                 required
               />
               <div className="flex flex-wrap md:flex-nowrap gap-4 w-full justify-end">

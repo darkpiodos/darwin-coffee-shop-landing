@@ -1,12 +1,18 @@
 import React from "react";
 import Image from "next/image";
 import { RiStarSLine } from "react-icons/ri";
-import { Feedbacks } from "./Feedbacks";
+import SlideFeedback from "./SlideFeedback";
 
 export const Testimony = () => {
   return (
     <div className=" p-8 sm:py-10 md:py-24">
-      <div className="grid grid-cols-1 py-10  w-full md:max-w-7xl mx-auto text-center">
+      <div
+        className="grid grid-cols-1 py-10  w-full md:max-w-7xl mx-auto text-center"
+        data-aos="fade-down"
+        data-aos-delay="20"
+        data-aos-duration="800"
+        data-aos-easing="ease-in-out"
+      >
         <h1 className="text-3xl md:text-5xl font-bold mb-4">
           What Our Clients Say
         </h1>
@@ -76,7 +82,7 @@ export const Testimony = () => {
           </p>
         </div>
       </div>
-      <Feedbacks />
+      <SlideFeedback />
     </div>
   );
 };
