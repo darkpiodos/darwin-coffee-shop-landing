@@ -62,7 +62,7 @@ export const Banner = () => {
             alt="Darwin Coffee Shop Banner"
             width={500}
             height={500}
-            className="rounded-md"
+            className="rounded-md h-auto w-[250px] md:w-[500px]"
           />
         </div>
       </div>
